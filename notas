@@ -1,0 +1,7 @@
+============================================
+Arquivo para colocar comandos importantes
+
+Desinstala programas
+apt-get --purge remove <programas>
+
+apt-get autoremove
