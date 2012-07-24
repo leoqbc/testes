@@ -1,5 +1,21 @@
 <?php
-   echo "Adicionado como marster";
-   echo "teste de saída de comando pelo GIT";
-   echo "Nova alteração no texto entrando em commit 3";
-?>
+
+//Testando classe para Sublime captar
+/**
+* Testando Sublime
+*/
+class Sublime_Class 
+{
+	
+	function __construct($strHello)
+	{
+		echo "Do construtor ";
+		echo $strHello;
+		echo ' encerrando';
+	}
+	function imprime()
+	{
+		echo "Imprimindo sou a Sublime Class";
+	}
+
+}
