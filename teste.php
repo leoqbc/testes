@@ -13,9 +13,14 @@ class Sublime_Class
 		echo $strHello;
 		echo ' encerrando';
 	}
-	function imprime()
+	public function imprime()
 	{
 		echo "Imprimindo sou a Sublime Class";
+	}
+
+	public static function openMsg()
+	{
+		echo "Imprimindo n'importe quoi!";
 	}
 
 }
