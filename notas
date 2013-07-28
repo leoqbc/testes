@@ -1,7 +1,16 @@
 ============================================
 Arquivo para colocar comandos importantes
 
-Desinstala programas
+// Desinstala programas
 apt-get --purge remove <programas>
 
 apt-get autoremove
+
+
+// Verifica processo em andamento para php
+// em beckground
+ps aux | grep #busca
+
+// Executo em background sem matar a operação
+// depois de fechar o terminal
+nohup #comando &
