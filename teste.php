@@ -12,6 +12,7 @@ class Sublime_Class
 		echo "Do construtor ";
 		echo $strHello;
 		echo ' encerrando';
+		echo "uma nova linnha";
 	}
 	public function imprime()
 	{
